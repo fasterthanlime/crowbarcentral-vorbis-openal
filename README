@@ -1,0 +1,16 @@
+A simple example of OpenAL+libvorbis use in ooc.
+
+Need these libs
+  * http://github.com/nddrylliog/openal-ooc
+  * http://github.com/nddrylliog/alut-ooc
+  * http://github.com/nddrylliog/vorbis-ooc
+
+With the latest rock, of course:
+
+  * http://github.com/nddrylliog/rock
+
+The code is shamefully adapted from this article: www.gamedev.net/reference/articles/article2031.asp
+
+Enjoy!
+
+Amos Wenger (nddrylliog)
