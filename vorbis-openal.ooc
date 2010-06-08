@@ -61,11 +61,11 @@ loadOgg: func (fileName: String, buffer: Buffer, format: ALformat@, freq: ALsize
 }
 
 main: func (argc: Int, argv: Char**) {
-    state: ALint               // state of the sound source
-    bufferID, sourceID: ALuint // OpenAL sound buffer ID and sound souce ID
-    format: ALformat           // sound data format
-    freq: ALsizei              // frequency of the sound file
-    buffer := Buffer new()     // The sound buffer data from file
+    state: ALint                      // state of the sound source
+    bufferID, sourceID: ALuint        // OpenAL sound buffer ID and sound souce ID
+    format: ALformat                  // sound data format
+    freq: ALsizei                     // frequency of the sound file
+    buffer := Buffer new(BUFFER_SIZE) // The sound buffer data from file
 
     // Make sure there is a file name
     if (argc < 2) {
